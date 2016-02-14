@@ -38,8 +38,8 @@ button: {
   height: 36,
   flex: 1,
   flexDirection: 'row',
-  backgroundColor: '#48BBEC',
-  borderColor: '#48BBEC',
+  backgroundColor: '#f7931d',
+  borderColor: '#f7931d',
   borderWidth: 1,
   borderRadius: 8,
   marginBottom: 10,
@@ -53,9 +53,9 @@ searchInput: {
   flex: 4,
   fontSize: 18,
   borderWidth: 1,
-  borderColor: '#48BBEC',
+  borderColor: '#f7931d',
   borderRadius: 8,
-  color: '#48BBEC'
+  color: '#f7931d'
 }
 });
 function urlForQueryAndPage(key, value, pageNumber) {
