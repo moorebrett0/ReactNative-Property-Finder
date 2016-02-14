@@ -79,7 +79,7 @@ class SearchPage extends Component {
   constructor(props) {
   super(props);
   this.state = {
-    searchString: 'london',
+    searchString: 'search',
     isLoading: false,
     message: ''
   };
@@ -139,13 +139,13 @@ _handleResponse(response) {
         onChange={this.onSearchTextChanged.bind(this)}
         placeholder='Search via name or postcode'/>
   <TouchableHighlight style={styles.button}
-      underlayColor='#99d9f4'>
+      underlayColor='#f7931d'>
 
     <Text style={styles.buttonText} onPress={this.onSearchPressed.bind(this)}>Go</Text>
   </TouchableHighlight>
 </View>
 <TouchableHighlight style={styles.button}
-    underlayColor='#99d9f4'>
+    underlayColor='#f7931d'>
   <Text style={styles.buttonText}>Location</Text>
 </TouchableHighlight>
 <Image source={require('image!house')} style={styles.image}/>
